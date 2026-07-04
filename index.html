@@ -39,50 +39,67 @@ padding:20px;
 background:#222;
 border-radius:15px;
 }
+body{
+background:#111;
+font-family:Cairo,sans-serif;
+margin:0;
+padding:20px;
+}
+
+.apps{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.card{
+background:#222;
+border-radius:15px;
+padding:10px;
+text-align:center;
+text-decoration:none;
+color:#fff;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card h3{
+margin:10px 0 5px;
+}
+
+.card p{
+color:#aaa;
+}
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="header">
+<body>
 
-<img src="banner.jpg" style="width:100%;max-width:700px;border-radius:20px;">
+<h1 style="text-align:center;color:white;">KurdMan Apps</h1>
 
-<h1>Pro Gym Workout</h1>
+<div class="apps">
 
-<p>Professional Gym Workout App</p>
+<a class="card" href="pro-gym.html">
+<img src="pro-gym.jpg">
+<h3>Pro Gym Workout</h3>
+<p>v6.5</p>
+</a>
 
-  <a class="download" href="https://pro-gym.b-cdn.net/Pro%20Gym%20Workout%20v6.5%20(PREMIUM)%20(1).apk">
-⬇ Download APK
+<a class="card" href="kurdmantv.html">
+<img src="kurdmantv.jpg">
+<h3>KurdMan TV</h3>
+<p>Latest</p>
 </a>
 
 </div>
 
-<div class="info">
-
-<h2>وەشانی 6.5</h2>
-
-<p>📅 دوایین نوێکردنەوە: 18/06/2026</p>
-
-<p>📦 قەبارە: 48 MB</p>
-
-<p>🤖 پێویستی: Android 7.0+</p>
-
-<p>👨‍💻 گەشەپێدەر: FitCraft Technologies</p>
-
-<p>🏋️‍♂️ جۆری ئەپ: ڕاهێنانی جەستە و فیتنەس</p>
-
-<p>💎 وەشانی Premium (بێ ڕیکلام)</p>
-
-<p>🎥 سەدان ڤیدیۆی فێرکاری بۆ هەموو بەشەکانی جەستە</p>
-
-<p>🔥 پلانی ڕۆژانەی ڕاهێنان</p>
-
-<p>❤️ ڕێنمایی دروست بۆ ئەنجامدانی هەر تمرینێک</p>
-
-<p>📱 کاردەکات لەسەر مۆبایل و تابلێت</p>
-</div>
+</body>
 
 </body>
 </html>
