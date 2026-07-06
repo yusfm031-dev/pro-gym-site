@@ -1,88 +1,85 @@
 <!DOCTYPE html>
-<html lang="ku" dir="rtl">
+<html lang="ku">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Grok (پڕۆ)</title>
+<title>Grok AI</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 
 <style>
 body{
-margin:0;
 background:#111;
 color:#fff;
 font-family:'Cairo',sans-serif;
+text-align:center;
+margin:0;
 }
-
-.banner{
+img{
 width:100%;
 max-width:700px;
-display:block;
-margin:auto;
 border-radius:20px;
+margin-top:20px;
 }
-
-.info{
-padding:20px;
-line-height:2;
-}
-
 .download{
-display:block;
-text-align:center;
-background:#ff0000;
+display:inline-block;
+margin:20px;
+padding:15px 35px;
+background:#e60000;
 color:#fff;
 text-decoration:none;
-padding:16px;
 border-radius:12px;
 font-size:22px;
-font-weight:bold;
-margin-top:25px;
+}
+.info{
+background:#222;
+margin:20px;
+padding:20px;
+border-radius:15px;
+line-height:2;
 }
 </style>
-
 </head>
 
 <body>
 
-<img src="file_00000000094c720a955e1cf09403fc1e.png" class="banner">
-
-<div class="info">
+<img src="file_00000000094c720a955e1cf09403fc1e.png">
 
 <h1>🤖 ئەپی Grok (پڕۆ)</h1>
 
-<p><b>🆕 نوێکراوە</b></p>
-
-<p>
-باشترین یاریدەدەری زیرەکی دەستکرد کە سەر بە کۆمپانیای <b>X</b> و <b>ئیلۆن ماسک</b> ـە، و یەکێکە لە باشترین جێگرەوەکانی ChatGPT.
-</p>
-
-<p>ئێستا دەتوانیت بە خۆڕایی لە مۆبایلەکەت Grok بەکاربهێنیت بۆ:</p>
-
-<p>
-✍️ نووسین و دروستکردنی دەق<br>
-📝 دەستکاریکردنی دەق<br>
-💻 دروستکردن و چاککردنی کۆد<br>
-🖼️ شیکردنەوەی وێنە<br>
-❓ وەڵامدانەوەی پرسیارەکان
-</p>
-
-<p><b>هەموو ئەمانە بێ سنوور.</b></p>
-
-<p>ئەپەکە دابەزێنە و سوود لە وەشانی پڕۆ (VIP) وەرگرە.</p>
-
-<h2>✨ تایبەتمەندییەکان</h2>
-
-<p>
-✅ وەشانی پڕۆ (VIP)<br>
-✅ هەموو تایبەتمەندییە پارەدراوەکان کراوەنەوە<br>
-📦 وەشانی ئەپ: v1.1.89
-</p>
+<p>باشترین یاریدەدەری زیرەکی دەستکرد</p>
 
 <a class="download" href="https://grokchat.b-cdn.net/Grok%20v1.1.89%20(1).apk">
-⬇️ داگرتنی ئەپ
+⬇ Download APK
 </a>
+
+<div class="info">
+
+<h2>زانیاری ئەپ</h2>
+
+<p>🆕 نوێکراوە</p>
+
+<p>باشترین یاریدەدەری زیرەکی دەستکرد کە سەر بە کۆمپانیای X و ئیلۆن ماسک ـە، و یەکێکە لە باشترین جێگرەوەکانی ChatGPT.</p>
+
+<p>✍️ نووسین و دروستکردنی دەق</p>
+
+<p>📝 دەستکاریکردنی دەق</p>
+
+<p>💻 دروستکردن و چاککردنی کۆد</p>
+
+<p>🖼️ شیکردنەوەی وێنە</p>
+
+<p>❓ وەڵامدانەوەی پرسیارەکان</p>
+
+<p>♾️ هەموو ئەمانە بێ سنوور</p>
+
+<p>💎 وەشانی پڕۆ (VIP)</p>
+
+<p>✅ هەموو تایبەتمەندییە پارەدراوەکان کراوەنەوە</p>
+
+<p>📦 وەشانی ئەپ: v1.1.89</p>
+
+<p>👨‍💻 گەشەپێدەر: xAI</p>
 
 </div>
 
