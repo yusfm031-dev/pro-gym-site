@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grok (پڕۆ)</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+background:#111;
+color:#fff;
+font-family:'Cairo',sans-serif;
+}
+
+.banner{
+width:100%;
+max-width:700px;
+display:block;
+margin:auto;
+border-radius:20px;
+}
+
+.info{
+padding:20px;
+line-height:2;
+}
+
+.download{
+display:block;
+text-align:center;
+background:#ff0000;
+color:#fff;
+text-decoration:none;
+padding:16px;
+border-radius:12px;
+font-size:22px;
+font-weight:bold;
+margin-top:25px;
+}
+</style>
+
+</head>
+
+<body>
+
+<img src="file_00000000094c720a955e1cf09403fc1e.png" class="banner">
+
+<div class="info">
+
+<h1>🤖 ئەپی Grok (پڕۆ)</h1>
+
+<p><b>🆕 نوێکراوە</b></p>
+
+<p>
+باشترین یاریدەدەری زیرەکی دەستکرد کە سەر بە کۆمپانیای <b>X</b> و <b>ئیلۆن ماسک</b> ـە، و یەکێکە لە باشترین جێگرەوەکانی ChatGPT.
+</p>
+
+<p>ئێستا دەتوانیت بە خۆڕایی لە مۆبایلەکەت Grok بەکاربهێنیت بۆ:</p>
+
+<p>
+✍️ نووسین و دروستکردنی دەق<br>
+📝 دەستکاریکردنی دەق<br>
+💻 دروستکردن و چاککردنی کۆد<br>
+🖼️ شیکردنەوەی وێنە<br>
+❓ وەڵامدانەوەی پرسیارەکان
+</p>
+
+<p><b>هەموو ئەمانە بێ سنوور.</b></p>
+
+<p>ئەپەکە دابەزێنە و سوود لە وەشانی پڕۆ (VIP) وەرگرە.</p>
+
+<h2>✨ تایبەتمەندییەکان</h2>
+
+<p>
+✅ وەشانی پڕۆ (VIP)<br>
+✅ هەموو تایبەتمەندییە پارەدراوەکان کراوەنەوە<br>
+📦 وەشانی ئەپ: v1.1.89
+</p>
+
+<a class="download" href="https://grokchat.b-cdn.net/Grok%20v1.1.89%20(1).apk">
+⬇️ داگرتنی ئەپ
+</a>
+
+</div>
+
+</body>
+</html>
