@@ -1,1 +1,256 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subway Surfers</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;}
+
+body{
+background:radial-gradient(circle at 50% 0%, #1a1305 0%, #0a0a0a 55%, #000 100%);
+color:#fff;
+font-family:'Cairo',sans-serif;
+text-align:center;
+margin:0;
+padding:20px 16px 44px;
+}
+
+.icon-box{
+background:linear-gradient(145deg,#1c1c1c,#0d0d0d);
+border:1px solid #3a2e0f;
+border-radius:24px;
+padding:14px;
+max-width:700px;
+margin:0 auto;
+box-shadow:0 0 30px rgba(212,175,55,0.15);
+}
+
+.icon-box img{
+width:100%;
+max-width:340px;
+aspect-ratio:1/1;
+border-radius:20px;
+object-fit:cover;
+object-position:top;
+display:block;
+margin:0 auto;
+}
+
+h1{
+margin:24px 0 6px;
+font-size:26px;
+font-weight:900;
+background:linear-gradient(90deg,#d4af37,#f5e08c,#d4af37);
+-webkit-background-clip:text;
+background-clip:text;
+color:transparent;
+letter-spacing:.5px;
+}
+
+.subtitle{
+color:#999;
+margin:0 0 24px;
+font-size:15px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:14px;
+max-width:700px;
+margin:0 auto;
+}
+
+.box{
+background:linear-gradient(160deg,#161616,#0c0c0c);
+border:1px solid #3a2e0f;
+border-radius:16px;
+padding:20px 10px;
+position:relative;
+}
+
+.box::before{
+content:"";
+position:absolute;
+inset:0;
+border-radius:16px;
+padding:1px;
+background:linear-gradient(135deg,#d4af37,transparent 40%,transparent 60%,#e60000);
+-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+-webkit-mask-composite:xor;
+mask-composite:exclude;
+pointer-events:none;
+}
+
+.box .ico{
+font-size:22px;
+margin-bottom:6px;
+}
+
+.box .label{
+color:#d4af37;
+font-weight:700;
+font-size:14px;
+margin-bottom:6px;
+}
+
+.box .value{
+font-size:16px;
+font-weight:700;
+color:#fff;
+}
+
+.download{
+display:block;
+max-width:700px;
+margin:26px auto 12px;
+padding:17px;
+background:linear-gradient(90deg,#8a0000,#e60000,#8a0000);
+color:#fff;
+text-decoration:none;
+border-radius:14px;
+font-size:20px;
+font-weight:900;
+box-shadow:0 6px 20px rgba(230,0,0,0.35);
+letter-spacing:.5px;
+}
+
+.telegram{
+display:block;
+max-width:700px;
+margin:0 auto 12px;
+padding:15px;
+background:linear-gradient(90deg,#1789c9,#2AABEE,#1789c9);
+color:#fff;
+text-decoration:none;
+border-radius:14px;
+font-size:17px;
+font-weight:700;
+}
+
+.tiktok{
+display:block;
+max-width:700px;
+margin:0 auto;
+padding:15px;
+background:#0a0a0a;
+color:#fff;
+text-decoration:none;
+border-radius:14px;
+font-size:17px;
+font-weight:700;
+border:1px solid #d4af37;
+}
+
+.info{
+background:linear-gradient(160deg,#161616,#0c0c0c);
+border:1px solid #3a2e0f;
+border-radius:18px;
+max-width:700px;
+margin:24px auto 0;
+padding:22px;
+text-align:right;
+line-height:2.2;
+}
+
+.info h2{
+text-align:center;
+margin:0 0 14px;
+font-size:19px;
+color:#d4af37;
+font-weight:900;
+}
+
+.info p{
+margin:0;
+font-size:15px;
+color:#eee;
+}
+</style>
+</head>
+
+<body>
+
+<div class="icon-box">
+<img src="IMG_20260704_220237_180.png" alt="KurdMan TV">
+</div>
+
+<h1>Subway Surfers</h1>
+<p class="subtitle">Subway Surfers یەکێکە لە بەناوبانگترین یارییەکانی مۆبایل.
+لە یارییەکەدا دەبێت لەسەر هێڵی شەمەندەفەر ڕابکەیت،
+دراو و کلیل کۆبکەیتەوە و لە پۆلیس و سەگەکەی هەڵبێیت. </p>
+
+<div class="grid">
+
+<div class="box">
+<div class="ico">⚡</div>
+<div class="label">وەشان</div>
+<div class="value">v2.0</div>
+</div>
+
+<div class="box">
+<div class="ico">📅</div>
+<div class="label">نوێکراوە</div>
+<div class="value">--/--/----</div>
+</div>
+
+<div class="box">
+<div class="ico">🤖</div>
+<div class="label">پێداویستی</div>
+<div class="value">android</div>
+</div>
+
+<div class="box">
+<div class="ico">⬇</div>
+<div class="label">قەبارە</div>
+<div class="value">180 MB</div>
+</div>
+
+<div class="box">
+<div class="ico">👤</div>
+<div class="value">SYBO Games</div>
+<div class="value">Subway Surfers</div>
+</div>
+
+<div class="box">
+<div class="ico">⭐</div>
+<div class="label">پۆل</div>
+<div class="value">یاری / ئارکەید (Arcade)</div>
+</div>
+
+</div>
+
+<a class="download" href="https://kurdmantv.b-cdn.net/KurdMan%20TV%20VIP%20(1)%20(1).apk" download>
+⬇ داونلۆد
+</a>
+
+<a class="telegram" href="https://telegram.me/kurdman_Vip" target="_blank" rel="noopener">
+📩 بەشداری بکە لە کەناڵی تەلەگرام
+</a>
+
+<a class="tiktok" href="https://www.tiktok.com/@YOUR_ACCOUNT" target="_blank" rel="noopener">
+🎵 شوینمان بکە لە تیک‌تۆک
+</a>
+
+<div class="info">
+<h2>دەربارەی یاری</h2>
+
+<p>🏃 Subway Surfers یەکێکە لە بەناوبانگترین یارییەکانی Arcade.</p>
+
+<p>🚆 لەسەر هێڵی شەمەندەفەر ڕابکە و لە پۆلیس هەڵبێ.</p>
+
+<p>🪙 پارە، کلیل و Power-Up کۆبکەوە.</p>
+
+<p>🎮 هەموو کاراکتەر و بۆردەکان هەیە.</p>
+
+<p>🚫 بێ ڕیکلام.</p>
+
+<p>⚡ گرافیکی بەرز و یارییەکی خێرا.</p>
+</div>
+
+</body>
+</html>
